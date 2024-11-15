@@ -46,7 +46,7 @@ module ripple_carry_adder_4bit (
 endmodule
 ```
 
-// Test bench for Ripple carry adder
+### Test bench for Ripple carry adder
 
 ```
 module ripple_carry_adder_4bit_tb;
@@ -101,10 +101,10 @@ module ripple_carry_adder_4bit_tb;
 
 endmodule
 ```
-OUTPUT: Ripple carry adder
+### OUTPUT: Ripple carry adder
 ![Screenshot 2024-11-15 162628](https://github.com/user-attachments/assets/dc9f1266-e2c0-4eb4-b689-cabb3f83d49f)
 
-// Verilog Code ripple counter
+###  Verilog Code ripple counter
 ```
 module ripple_counter_4bit (
     input clk,           // Clock signal
@@ -130,7 +130,7 @@ module ripple_counter_4bit (
 
 endmodule
 ```
-// TestBench
+### TestBench
 ```
 module ripple_counter_4bit_tb;
 
@@ -164,7 +164,7 @@ module ripple_counter_4bit_tb;
         $monitor("Time = %0t | Reset = %b | Q = %b", $time, reset, Q);
     end
 
-endmodule
+### endmodule
 ```
 OUTPUT: ripple counter
 ![Screenshot 2024-11-15 160346](https://github.com/user-attachments/assets/65d3cc31-ddcd-413b-9471-a491546f46e1)
