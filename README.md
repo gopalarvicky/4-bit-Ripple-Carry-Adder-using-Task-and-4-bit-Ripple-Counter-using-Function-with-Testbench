@@ -8,7 +8,7 @@ To design and simulate a 4-bit Ripple Counter using Verilog HDL with a function 
 Verilog HDL compiler.
 ```
 
-Verilog Code
+### Verilog Code
 ```
 module ripple_carry_adder_4bit (
     input [3:0] A,      // 4-bit input A
